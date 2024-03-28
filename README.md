@@ -24,7 +24,7 @@ This will check for 'FAIL' events in the last 2 hours and send an email alert if
 - Ensure you have the necessary permissions to execute message tracking log searches and send emails through your Exchange Server.
 
 ## Author
-Aviad Ofek
+This script was authored by [Aviad Ofek](https://github.com/aviado1).
 
 ## Script Example
 The script initiates a search in the message tracking logs for 'FAIL' events. If such events are detected, it processes these events to convert the recipients array into a string and creates a custom object with details like timestamp, source, sender, recipients, message subject, and event ID. Then, it formats these details into an HTML table and sends an email alert with this information.
